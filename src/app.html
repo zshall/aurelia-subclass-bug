@@ -1,6 +1,19 @@
 <template>
+  <h1><code>require</code></h1>
   <require from="./x"></require>
   <require from="./y"></require>
-  <x></x>
-  <y></y>
+
+  <div>
+    <x></x>
+    <y></y>
+  </div>
+
+  <h1><code>require as</code></h1>
+  <require from="./x" as="ecks"></require>
+  <require from="./y" as="why"></require>
+
+  <div>
+    <ecks></ecks>
+    <why></why>
+  </div>
 </template>
